@@ -63,6 +63,13 @@ Your delivery folder should only contains file required for compilation. Any pos
         format.h
         compute.h
 
+#### 1.2. File extension
+Sources in your program, should only have file with `.c` and `.h` extension.
+
+#### 1.3. File coherence
+A source file should match a logic, and group all the functions associated.
+
+    /!\ You should consider subdivide your code in multiple files if you have more than 5 functions.
 
 # Blog **Posts**
 
