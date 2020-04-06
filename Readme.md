@@ -31,6 +31,19 @@ If you want to know more, feel free to check out this link: https://www.mountain
 
 ![image](./images/poker_schedule.png)
 
+#### b. Dot voting
+
+This method is usually used as a decision support tool. Nevertheless, it is well suited for quickly estimating a small number of functionalities.
+
+The list of features to be estimated is displayed and each participant is given a small number of voting points (5 for example). Each participant then distributes his or her points on the different features. It is possible to put several points on the same feature if it is estimated that it is more complex or longer to achieve than the others.
+
+Once everyone has distributed all their points, the total is added up and a score is given for each feature. The higher the score, the longer or more complicated the feature is going to be.
+
+If you want to know more, feel free to check out this link: https://www.nngroup.com/articles/dot-voting/
+
+![image](./images/dot_voting.png)
+
+
 3. To conclude
 
 There are many methods for estimating tasks (you can easily find variants of those described). Don't hesitate to test several of them, to change estimation methods from one sprint to another, and thus determine the one that best suits the project, with which team members are most comfortable. You can also adapt the agile estimation method to the needs of the project, depending on the number of features to be analyzed and the size of the team. Depending on these criteria, some methods will be better adapted than others, and therefore more efficient.
