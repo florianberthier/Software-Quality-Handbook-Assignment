@@ -12,4 +12,6 @@ These estimates are based on a compromise between project team members. This is 
 
 The complexity of the accomplishment of a task will be measured using a qualitative unit, usually a number of points. This greatly simplifies the estimation. To summarize, in an Agile or Scrum estimation, a difficulty is estimated in number of points based on references and experience on similar tasks previously performed.
 
-2. **Agile | Scrum** estimation concept
+2. The different **methods** of task estimation
+
+There are several agile estimation methods, each with its advantages and disadvantages. Nothing prevents the team from changing estimation methods every sprint until they find the one that best suits your agile team.
