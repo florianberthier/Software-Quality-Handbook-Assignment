@@ -14,4 +14,4 @@ The complexity of the accomplishment of a task will be measured using a qualitat
 
 2. The different **methods** of task estimation
 
-There are several agile estimation methods, each with its advantages and disadvantages. Nothing prevents the team from changing estimation methods every sprint until they find the one that best suits your agile team.
+There are several Agile and Scrum estimation methods, each with its advantages and disadvantages. Nothing prevents the team from changing estimation methods every sprint until they find the one that best suits your team.
