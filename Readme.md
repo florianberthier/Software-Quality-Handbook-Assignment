@@ -322,6 +322,16 @@ if (cond) {
 }
 ```
 
+## 5 Variables
+
+#### 5.1 Declaration
+
+Variables should be declared at the beginning of the scope of the function
+
+#### 5.2 Naming
+
+All identifier names should be in English and represent the variable
+
 # Blog **Posts**
 
 https://medium.com/@marilu597/general-coding-guidelines-clean-code-from-day-1-9ab0804e5d91
