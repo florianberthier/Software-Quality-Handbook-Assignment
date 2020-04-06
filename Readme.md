@@ -31,6 +31,9 @@ This practice can be divided into two categories. You can do automated checks fo
 
 - Automate to Save Time. Despite good practices, reviewing the code remains a very time-consuming task. It is therefore important to automate what can be automated using the right tools. One such tool is static code analyzers, for example, which detect potential problems in the code by comparing it to coding rules. Running static code analyzers on code minimizes the number of problems that reach the peer review phase.
 
+- Lookout For The Key Metrics. Of course, you need to know what to look for in the case of automatic code examination. Closely monitor internal process parameters such as inspection rate - the speed at which an examination is performed -, defect rate - the number of bugs identified per hour of examination -, defect density - the average number of bugs per line of code. These are the metrics that will give you a global view of the state of your code.
+
+
 ### Bad Practices 
 
 
