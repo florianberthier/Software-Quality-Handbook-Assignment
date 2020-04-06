@@ -53,6 +53,10 @@ If you want to know more, feel free to check out this link: https://blog.trello.
 
 ![image](./images/tshirt_sizes.jpg)
 
+#### d. Ordering Procotol
+
+Functionalities are initially randomly divided into two categories: "low" and "high". Each participant then has the opportunity to perform an action. An action can consist of moving a record from one category to another, starting a discussion about a feature or skipping one's turn. Once everyone has performed an action, the feature ranking is final.
+
 3. To conclude
 
 There are many methods for estimating tasks (you can easily find variants of those described). Don't hesitate to test several of them, to change estimation methods from one sprint to another, and thus determine the one that best suits the project, with which team members are most comfortable. You can also adapt the agile estimation method to the needs of the project, depending on the number of features to be analyzed and the size of the team. Depending on these criteria, some methods will be better adapted than others, and therefore more efficient.
