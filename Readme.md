@@ -71,6 +71,35 @@ A source file should match a logic, and group all the functions associated.
 
     /!\ You should consider subdivide your code in multiple files if you have more than 5 functions.
 
+#### 1.4. Naming and folders
+The name of the file should represent the logical entity it defines, and thus be clear, precise and explicit.
+
+**Clear, precise and explicit filename**
+
+    get_articles.c
+    get_comments.c
+    get_authors.c
+
+**Unclear filename**
+
+    write.c
+    find.c
+    algo.c
+
+Every folders and filenames should be in English and formatted according to the snake_case convention (composed only of lowercase, numbers, and underscores).
+
+**good filename**
+
+    get_articles.c
+    get_comments.c
+    get_authors.c
+
+**bad filename**
+
+    GetArticles.c
+    GetComments.c
+    GetAuthors.c
+
 # Blog **Posts**
 
 https://medium.com/@marilu597/general-coding-guidelines-clean-code-from-day-1-9ab0804e5d91
