@@ -100,6 +100,56 @@ Every folders and filenames should be in English and formatted according to the 
     GetComments.c
     GetAuthors.c
 
+## 2. Global Organization
+#### 2.1. File Header
+
+The source files (`.c`, `.h`) must always start with the formatted header of the company. A Visual Studio Code extension is available to automatically generate the header.
+
+    **************************************
+    @company - company.io
+    @project - Computer Vision Toolbox
+    @author  - john@company.io
+    @updated - 2020-04-05 18:35:02
+    **************************************
+
+#### 2.2. Functions separator
+Each function inside a file should be separated by one empty line.
+
+**Good function separation**
+
+    function multiply(int x, int y) {
+        ...
+    }
+
+    function main() {
+        ...
+    }
+
+**Bad function separation**
+
+    function multiply(int x, int y) {
+        ...
+    }
+    function main() {
+        ...
+    }
+
+#### 2.3. Global Variables
+
+You should only use global variables when it comes to constant variable. Any non-constant variable should not be global.
+
+Global variable should follow SNAKE_CASE (ALL CAPS) standard.
+
+**Good Global Variable**
+
+    const float VALIDITY_THRESHOLD=70.5 
+
+**Bad Global Variable**
+
+    const int AGE=20
+    const int threshold=20
+
+
 # Blog **Posts**
 
 https://medium.com/@marilu597/general-coding-guidelines-clean-code-from-day-1-9ab0804e5d91
