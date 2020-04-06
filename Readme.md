@@ -17,6 +17,17 @@ It is therefore essential to know the best practices of code reviewing.
 
 ### Best Practices
 
+This practice can be divided into two categories. You can do automated checks for some of the things — e.g., structure and logic. But others — e.g., design and functionality — require a human reviewer to evaluate. We will therefore first talk about good practices in the case of a manual code review.
+
+#### Manual Code Review
+
+- Take your time. Never exceed 60 minutes of examination time at a time. Performance and attention to detail tend to decrease after this point. Studies show that taking breaks from a task for a period of time helps to maintain workflow without sacrificing much of its quality. So if the task requires a great deal of attention from you, it is best to take a break. During this break, think about something else, clear your head. This way, when you resume the code review, you will get a fresh look at the code. So if your review lasts more than 60 minutes, take a break.
+
+
+- Try to not hurts. 
+
+#### Automatic Code Review
+
 ### Bad Practices 
 
 
