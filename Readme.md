@@ -1,6 +1,7 @@
 # Coding Standard
 
 ## Introduction
+
 The Coding Standard also know as Coding Stlye is a set of rules, guidelines and programming conventions created within the company to build software uniformly. It helps other developers to understand code regardless of his author and it allows smoother code reviews.
 
 In other words, standardization of code facilitate :
@@ -16,13 +17,14 @@ In other words, standardization of code facilitate :
 
 The following coding style applies to every program inside the company written in C. No matter which product or service you are working on, you should follow the guideline.
 
-
 # Company Coding Style
 
 The following parties explain how you should write and organize your code.
 
 ## 1. Files Organization
+
 #### 1.1. Delivery folder content
+
 Your delivery folder should only contains file required for compilation. Any post-compilation generated file and temporary file should not be inclued in your delivery folder.
 
 **Good delivery folder tree**
@@ -64,14 +66,17 @@ Your delivery folder should only contains file required for compilation. Any pos
         compute.h
 
 #### 1.2. File extension
+
 Sources in your program, should only have file with `.c` and `.h` extension.
 
 #### 1.3. File coherence
+
 A source file should match a logic, and group all the functions associated.
 
     /!\ You should consider subdivide your code in multiple files if you have more than 5 functions.
 
 #### 1.4. Naming and folders
+
 The name of the file should represent the logical entity it defines, and thus be clear, precise and explicit.
 
 **Clear, precise and explicit filename**
@@ -101,6 +106,7 @@ Every folders and filenames should be in English and formatted according to the 
     GetAuthors.c
 
 ## 2. Global Organization
+
 #### 2.1. File Header
 
 The source files (`.c`, `.h`) must always start with the formatted header of the company. A Visual Studio Code extension is available to automatically generate the header.
@@ -113,6 +119,7 @@ The source files (`.c`, `.h`) must always start with the formatted header of the
     **************************************
 
 #### 2.2. Functions separator
+
 Each function inside a file should be separated by one empty line.
 
 **Good function separation**
@@ -142,15 +149,17 @@ Global variable should follow SNAKE_CASE (ALL CAPS) standard.
 
 **Good Global Variable**
 
-    const float VALIDITY_THRESHOLD=70.5 
+    const float VALIDITY_THRESHOLD=70.5
 
 **Bad Global Variable**
 
     const int AGE=20
     const int threshold=20
 
-##  3. Functions
+## 3. Functions
+
 #### 3.1. Functions coherence
+
 A function should only do one thing and should not mix functionality.
 
 **Good function**
@@ -176,7 +185,8 @@ A function should only do one thing and should not mix functionality.
     }
 
 #### 3.2. Naming convention
-A function should describe what it does. It must contains a verb and be explcit.
+
+A function should describe what it does. It must contains a verb and be explicit.
 
 All function names should be in English, according to the snake_case convention (meaning that it is composed only of lowercase, numbers, and underscores).
 
@@ -201,13 +211,15 @@ All function names should be in English, according to the snake_case convention 
     }
 
 #### 3.3. Number of lines
+
 A function should be as small as possible. The longer the function is the most difficult testing will be difficult.
 
 #### 3.4. Functions arguments
+
 A function taking no parameters should take `void` as unique argument.
 A function should not need more than 4 arguments
 
-***Good functions arguments**
+**\*Good functions arguments**
 
     int get_timestamp(void) {
         return date.now()
@@ -217,13 +229,20 @@ A function should not need more than 4 arguments
         return(x * y);
     }
 
-***Bad functions arguments**
+**\*Bad functions arguments**
 
     int create_user(int age, char **firstname, char **email, char **lastname, char **phone_number) {
         ...
     }
-    
 
+#### 3.5. Comments
+
+There should be no comment within a function.
+The function should be readable and self-explanatory but comment are allowed above the function to explain it.
+
+#### 3.6. Nested functions
+
+Nested functions are not allowed because it increase com- plexity.
 
 # Blog **Posts**
 
