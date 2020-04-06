@@ -175,6 +175,36 @@ A function should only do one thing and should not mix functionality.
         }
     }
 
+#### 3.2. Naming convention
+A function should describe what it does. It must contains a verb and be explcit.
+
+All function names should be in English, according to the snake_case convention (meaning that it is composed only of lowercase, numbers, and underscores).
+
+**Good function name**
+
+    int create_user(int age, char **name) {
+        ...
+    }
+
+**Bad function name**
+
+    int usr(int a, char** n) {
+        ...
+    }
+
+    INT USR(INT A, CHAR **N) {
+
+    }
+
+    int CREATE_USER(int AGE, char **NAME) {
+        ...
+    }
+
+#### 3.3. Number of lines
+A function should be as small as possible. The longer the function is the most difficult testing will be difficult.
+
+
+
 # Blog **Posts**
 
 https://medium.com/@marilu597/general-coding-guidelines-clean-code-from-day-1-9ab0804e5d91
