@@ -25,7 +25,7 @@ This practice can be divided into two categories. You can do automated checks fo
 
 - Review Less Than 400 Lines Of Code. As well as the time spent reviewing code, reviewing too much code is also counterproductive. Try to limit each review session to 400 lines or less. A lot of research shows that beyond this line limit, the brain can no longer process information efficiently. Keep in mind that code review is a matter of quality rather than quantity. If a team decides to exceed the 400 LOC limit, the ability to find defects is severely affected. It is estimated that if a code examination is performed on less than 400 lines, in several times if necessary, it would cover 70 to 90% of defects.
 
-- Try to not hurts. 
+- Try to not hurts. Finally, don't forget that in case you examine code that is not yours, you can yell at the creator of that code. You are looking at a human being, not a machine. So try to be constructive in your comments, rather than critical. You can do this by asking questions rather than making statements. And don't forget to praise in addition to your constructive comments.
 
 #### Automatic Code Review
 
