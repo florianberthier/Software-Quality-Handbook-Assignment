@@ -296,6 +296,32 @@ a++; b++;
 
 All files in the project must have the same indentation
 
+#### 4.3 Spaces
+
+Always place a space after a comma or a keyword
+
+for exemple :
+
+```
+return(1); => KO
+return (1); => OK
+```
+
+#### 4.4 Brackets
+
+Opening curly brackets should be at the end of their line.
+Closing curly brackets should always be alone on their line, except in the case of an else statement.
+
+for exemple :
+
+```
+if (cond) {
+    ...
+} else {
+    ...
+}
+```
+
 # Blog **Posts**
 
 https://medium.com/@marilu597/general-coding-guidelines-clean-code-from-day-1-9ab0804e5d91
