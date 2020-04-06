@@ -41,13 +41,18 @@ This practice can be divided into two categories. You can do automated checks fo
 
 - Staying professional. Although the task may seem boring to you, that's no reason to be distracted. So there is no need for jokes or inappropriate vocabulary. A person reading may not understand the overall meaning of your comment. We don't doubt your humour, no worries. ;)
 
+- Try to not hurts. Finally, don't forget that in case you examine code that is not yours, you can yell at the creator of that code. You are looking at a human being, not a machine. So try to be constructive in your comments, rather than critical. You can do this by asking questions rather than making statements. And don't forget to praise in addition to your constructive comments. It's good for team cohesion.
+  
 
-https://medium.com/cuelogic-technologies/code-review-process-best-practices-3eeecab26ded
 
-https://www.perforce.com/blog/qac/9-best-practices-for-code-review
+  Additional resources:
 
-https://medium.com/palantir/code-review-best-practices-19e02780015f
+	https://medium.com/cuelogic-technologies/code-review-process-best-practices-3eeecab26ded
 
-https://medium.com/@sandya.sankarram/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c
+	https://www.perforce.com/blog/qac/9-best-practices-for-code-review
 
-https://techbeacon.com/app-dev-testing/how-sabotage-code-review
+	https://medium.com/palantir/code-review-best-practices-19e02780015f
+
+	https://medium.com/@sandya.sankarram/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c
+	
+	https://techbeacon.com/app-dev-testing/how-sabotage-code-review
