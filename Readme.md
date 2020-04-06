@@ -23,6 +23,7 @@ There are several agile estimation methods, each with its advantages and disadva
 
 There are many methods for estimating tasks (you can easily find variants of those described). Don't hesitate to test several of them, to change estimation methods from one sprint to another, and thus determine the one that best suits the project, with which team members are most comfortable. You can also adapt the agile estimation method to the needs of the project, depending on the number of features to be analyzed and the size of the team. Depending on these criteria, some methods will be better adapted than others, and therefore more efficient.
 
-Ressources:
-
-https://www.projectmanager.com/blog/5-tips-for-task-estimating
+* Additional resources:
+	- https://www.guru99.com/an-expert-view-on-test-estimation.html
+	- https://www.projectmanager.com/blog/5-tips-for-task-estimating
+	- https://www.atlassian.com/agile/project-management/estimation
