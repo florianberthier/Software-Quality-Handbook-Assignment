@@ -1,1 +1,1 @@
-# Software Quality Assurance
+# Coding Standard
