@@ -42,11 +42,21 @@ Your delivery folder should only contains file required for compilation. Any pos
 **Bad delivery folder tree**
 
     main.c
+    main.o
+    ~main.tmp
     src/
         print.c
+        print.o
+        ~print.tmp
         strings.c
+        strings.O
+        ~strings.tmp
         format.c
+        format.o
+        ~format.tmp
         compute.c
+        compute.o
+        ~compute.tmp
     headers/
         print.h
         strings.h
