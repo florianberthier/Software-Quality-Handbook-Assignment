@@ -35,6 +35,7 @@ This practice can be divided into two categories. You can do automated checks fo
 
 ### Bad Practices 
 
+- Too many comments. When a person makes a mistake, chances are they have made the same mistake in several places. Do not drown the person who is going to correct the code under your comments. By doing so, you may just discourage the person. Grouping comments together allows you to convey the same message without overwhelming the review requester. It will also make the correction clearer.
 
 
 https://medium.com/cuelogic-technologies/code-review-process-best-practices-3eeecab26ded
