@@ -39,6 +39,8 @@ This practice can be divided into two categories. You can do automated checks fo
   
 - No opinion here. You must remain completely neutral on your examination. It is especially important not to pass off your opinion as fact when you have higher rank and authority within your team or company. If you do this, developers will feel they have no choice but to quietly implement your demands.
 
+- Staying professional. Although the task may seem boring to you, that's no reason to be distracted. So there is no need for jokes or inappropriate vocabulary. A person reading may not understand the overall meaning of your comment. We don't doubt your humour, no worries. ;)
+
 
 https://medium.com/cuelogic-technologies/code-review-process-best-practices-3eeecab26ded
 
