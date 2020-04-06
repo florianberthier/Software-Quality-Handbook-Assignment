@@ -117,20 +117,20 @@ Each function inside a file should be separated by one empty line.
 
 **Good function separation**
 
-    function multiply(int x, int y) {
+    int multiply(int x, int y) {
         ...
     }
 
-    function main() {
+    int main() {
         ...
     }
 
 **Bad function separation**
 
-    function multiply(int x, int y) {
+    int multiply(int x, int y) {
         ...
     }
-    function main() {
+    int main() {
         ...
     }
 
@@ -149,6 +149,31 @@ Global variable should follow SNAKE_CASE (ALL CAPS) standard.
     const int AGE=20
     const int threshold=20
 
+##  3. Functions
+#### 3.1. Functions coherence
+A function should only do one thing and should not mix functionality.
+
+**Good function**
+
+    int multiply(int x, int y) {
+        return(x * y);
+    }
+
+**Bad function**
+
+    int compute(int x, int y) {
+        int b = x + y
+        int c = b + y
+
+        for (i = 1; i < 11; ++i) {
+            printf("%d ", i);
+        }
+
+        i = b + x
+        for (b = 1; i < 11; ++i) {
+            printf("%d ", i);
+        }
+    }
 
 # Blog **Posts**
 
