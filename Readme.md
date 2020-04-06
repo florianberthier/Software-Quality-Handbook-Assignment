@@ -203,6 +203,26 @@ All function names should be in English, according to the snake_case convention 
 #### 3.3. Number of lines
 A function should be as small as possible. The longer the function is the most difficult testing will be difficult.
 
+#### 3.4. Functions arguments
+A function taking no parameters should take `void` as unique argument.
+A function should not need more than 4 arguments
+
+***Good functions arguments**
+
+    int get_timestamp(void) {
+        return date.now()
+    }
+
+    int multiply(int x, int y) {
+        return(x * y);
+    }
+
+***Bad functions arguments**
+
+    int create_user(int age, char **firstname, char **email, char **lastname, char **phone_number) {
+        ...
+    }
+    
 
 
 # Blog **Posts**
