@@ -19,6 +19,17 @@ The complexity of the accomplishment of a task will be measured using a qualitat
 
 There are several agile estimation methods, each with its advantages and disadvantages. Nothing prevents the team from changing estimation methods every sprint until they find the one that best suits your agile team.
 
+#### a. Poker planning
+
+Certainly the most widespread method of estimation in Scrum.
+
+Participants use a specially designed card game for poker planning. The cards have the values 0, 0.5, 1, 2, 3, 5, 8, 13, 20, 40, 100, "∞" and "?". The values represent estimates in number of points. Low values are for the simplest tasks. Values 3, 5 and 8 are generally used for slightly more complex tasks. The value 100 is usually used for a task that is too complex and needs to be split up and spread over several sprints. The value "∞" represents a task that is far too long or complex to be embedded in the sprint, and "?" indicates that it is not possible to provide an estimate based on the team's current state of knowledge.
+
+Each feature is presented, after which each participant in the poker schedule can vote. The cards are laid face down so that no one knows who votes what. If a consensus is not reached, everyone can discuss the feature again. Votes and discussions follow each other until a majority decides on the estimate. The process is repeated for each feature presented, usually two to ten per poker schedule.
+
+If you want to know more, feel free to check out this link: https://www.mountaingoatsoftware.com/agile/planning-poker
+
+![image](./images/poker_schedule.png)
 
 3. To conclude
 
