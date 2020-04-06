@@ -43,6 +43,15 @@ If you want to know more, feel free to check out this link: https://www.nngroup.
 
 ![image](./images/dot_voting.png)
 
+#### c. T-Shirt Sizes
+
+This is an informal technique, particularly suitable for quickly processing a large number of functionalities. The categories used are t-shirt sizes: XS, S, M, L XL.
+
+Each feature is discussed among the participants, in order to estimate in which category it fits. Naturally, the XS category will contain features that are easy to implement, XL will contain the most complex and difficult ones. A vote can be organized if the participants cannot agree during the discussion.
+
+If you want to know more, feel free to check out this link: https://blog.trello.com/t-shirt-sizes-project-estimation-technique
+
+![image](./images/tshirt_sizes.jpg)
 
 3. To conclude
 
