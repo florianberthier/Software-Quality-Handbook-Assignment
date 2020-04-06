@@ -268,30 +268,6 @@ or
 a++; b++;
 ```
 
-## 4. Layout inside a function
-
-#### 4.1 Line content
-
-A line should correspond to only one statement.
-
-Avoid to :
-
-- have several assignments on the same line
-- have several semi-colons on the same line, used to separate several codesequences
-- a condition and an assignment on the same line
-
-for exemple, avoid :
-
-```
-a = b = c = 0;
-```
-
-or
-
-```
-a++; b++;
-```
-
 #### 4.2 Indentation
 
 All files in the project must have the same indentation
