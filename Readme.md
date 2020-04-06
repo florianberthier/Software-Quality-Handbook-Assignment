@@ -244,6 +244,58 @@ The function should be readable and self-explanatory but comment are allowed abo
 
 Nested functions are not allowed because it increase com- plexity.
 
+## 4. Layout inside a function
+
+#### 4.1 Line content
+
+A line should correspond to only one statement.
+
+Avoid to :
+
+- have several assignments on the same line
+- have several semi-colons on the same line, used to separate several codesequences
+- a condition and an assignment on the same line
+
+for exemple, avoid :
+
+```
+a = b = c = 0;
+```
+
+or
+
+```
+a++; b++;
+```
+
+## 4. Layout inside a function
+
+#### 4.1 Line content
+
+A line should correspond to only one statement.
+
+Avoid to :
+
+- have several assignments on the same line
+- have several semi-colons on the same line, used to separate several codesequences
+- a condition and an assignment on the same line
+
+for exemple, avoid :
+
+```
+a = b = c = 0;
+```
+
+or
+
+```
+a++; b++;
+```
+
+#### 4.2 Indentation
+
+All files in the project must have the same indentation
+
 # Blog **Posts**
 
 https://medium.com/@marilu597/general-coding-guidelines-clean-code-from-day-1-9ab0804e5d91
