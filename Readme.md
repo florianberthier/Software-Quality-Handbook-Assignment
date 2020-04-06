@@ -13,17 +13,20 @@ Let's start with a little definition. Code review is a review of a piece of code
 - Reading code has a formative effect on the project team;
 - The knowledge of the project is correctly spread over the whole team.
 
+It is therefore essential to know the best practices of code reviewing.
+
+### Best Practices
+
+### Bad Practices 
+
+
 
 https://medium.com/cuelogic-technologies/code-review-process-best-practices-3eeecab26ded
 
-https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
-
 https://www.perforce.com/blog/qac/9-best-practices-for-code-review
 
+https://medium.com/palantir/code-review-best-practices-19e02780015f
 
+https://medium.com/@sandya.sankarram/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c
 
-
-FRENCH:
-https://www.novaway.fr/blog/tech/principes-et-avantages-de-la-revue-de-code
-
-https://blog.octo.com/revue-de-code-quel-format-choisir/
+https://techbeacon.com/app-dev-testing/how-sabotage-code-review
