@@ -455,9 +455,19 @@ This practice can be divided into two categories. You can do automated checks fo
 
 - Automate to Save Time. Despite good practices, reviewing the code remains a very time-consuming task. It is therefore important to automate what can be automated using the right tools. One such tool is static code analyzers, for example, which detect potential problems in the code by comparing it to coding rules. Running static code analyzers on code minimizes the number of problems that reach the peer review phase.
 
-- Lookout For The Key Metrics. Of course, you need to know what to look for in the case of automatic code examination. Closely monitor internal process parameters such as inspection rate - the speed at which an examination is performed -, defect rate - the number of bugs identified per hour of examination -, defect density - the average number of bugs per line of code. These are the metrics that will give you a global view of the state of your code.
+- Lookout For The Key Metrics. Of course, you need to know what to look for in the case of automatic code examination. Closely monitor internal process parameters such as inspection rate
 
-- Immediately Fix Defects Found. C'est parfois dure de quitter ça tâche actuel pour revenir sur un bug fraîchement découvert. Ce n'est pas parse que vous arrêtez votre tâche actuel pour s'occuper d'un bug que vous allez être en retard sur votre travail. Au contraire, le but est de ne pas laisser les bug s'accumuler au file du temps.
+  - the speed at which an examination is performed
+  - defect rate
+  - the number of bugs identified per hour of examination
+  - defect density
+  - the average number of bugs per line of code
+
+  These are the metrics that will give you a global view of the state of your code.
+
+- Immediately Fix Defects Found. It's sometimes hard to leave this current task and go back to a freshly discovered bug. It's not because you stop your current task to deal with a bug that you're going to be late on your work. On the contrary, the goal is not to let bugs accumulate over time.
+
+![image](./images/code_review.png)
 
 ### Bad Practices
 
@@ -465,18 +475,16 @@ This practice can be divided into two categories. You can do automated checks fo
 
 - No opinion here. You must remain completely neutral on your examination. It is especially important not to pass off your opinion as fact when you have higher rank and authority within your team or company. If you do this, developers will feel they have no choice but to quietly implement your demands.
 
-- Staying professional. Although the task may seem boring to you, that's no reason to be distracted. So there is no need for jokes or inappropriate vocabulary. A person reading may not understand the overall meaning of your comment. We don't doubt your humour, no worries. ;)
+- Staying professional. Although the task may seem boring to you, that's no reason to be distracted. So there is no need for jokes or inappropriate vocabulary. A person reading may not understand the overall meaning of your comment.
 
 - Try to not hurts. Finally, don't forget that in case you examine code that is not yours, you can yell at the creator of that code. You are looking at a human being, not a machine. So try to be constructive in your comments, rather than critical. You can do this by asking questions rather than making statements. And don't forget to praise in addition to your constructive comments. It's good for team cohesion.
 
-Additional resources:
+**Additional resources :**
 
-    https://medium.com/cuelogic-technologies/code-review-process-best-practices-3eeecab26ded
+- [Code Review Process: Best Practices](https://medium.com/cuelogic-technologies/code-review-process-best-practices-3eeecab26ded)
+- [Nine best practices for code review](https://www.perforce.com/blog/qac/9-best-practices-for-code-review)
+- [Code review best practices](https://medium.com/palantir/code-review-best-practices-19e02780015f)
+- [Unlearning toxic behaviors in a code review culture](https://medium.com/@sandya.sankarram/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c)
+- [How to not sabotage code review](https://techbeacon.com/app-dev-testing/how-sabotage-code-review)
 
-    https://www.perforce.com/blog/qac/9-best-practices-for-code-review
-
-    https://medium.com/palantir/code-review-best-practices-19e02780015f
-
-    https://medium.com/@sandya.sankarram/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c
-
-    https://techbeacon.com/app-dev-testing/how-sabotage-code-review
+---
