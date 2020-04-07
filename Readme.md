@@ -7,13 +7,14 @@ This document is an handbook of best practices which highlights the good / bad m
 You will find bellow the different topics to be aware of in order to produce efficiently for a project.
 
 - [**Task Estimation**](#task-estimation)
-  - [**Agile/Scrum estimation concept**](#agile/scrum-estimation-concept)
+
+  - [**Agile/Scrum estimation concept**](#agile-estimation-concept)
   - [**The different methods of task estimation**](#The-different-methods-of-task-estimation)
     - [**Poker planning**](#poker-planning)
     - [**Dot voting**](#dot-voting)
-    - [**T-Shirt Sizes**](#Shirt-Sizes)
+    - [**T-Shirt Sizes**](#T-Shirt-Sizes)
     - [**Ordering Procotol**](#Ordering-Procotol)
-  - [**Conclusion**](#To-conclude)
+
 - [**Coding Standards**](#coding-standards)
   - [**Files Organization**](#Files-Organization)
     - [**Delivery folder content**](#Delivery-folder-content)
@@ -39,6 +40,11 @@ You will find bellow the different topics to be aware of in order to produce eff
   - [**Variables**](#Variables)
     - [**Declaration**](#Declaration)
     - [**Naming**](#Naming)
+- [**Code Review**](#code-review)
+  - [**Best practices**](#Best-Practices)
+    - [**Manual code review**](#Manual-code-review)
+    - [**Automatic code review**](#Automatic-code-review)
+  - [**Bad practices**](#Bad-Practices)
 
 ---
 
@@ -46,7 +52,7 @@ You will find bellow the different topics to be aware of in order to produce eff
 
 First of all, before any planning for the realization of a project, there is necessarily an estimation stage. The evaluation of the realization of a task can be based on different notions such as man-days, hours, points or even t-shirt sizes (XS, S, M, L, XL...).
 
-### **Agile/Scrum** estimation concept
+### **Agile** estimation concept
 
 During a **Agile or Scrum** estimate, all the people who can bring something to the project are invited and involved. This allows everyone to express their point of view and thus obtain a much broader vision of the functionality to be estimated and the solutions that can be implemented. The responsibility for the estimation is shared equally among all team members and is not attributable If the estimation is incorrect, the whole team is responsible. Everyone will therefore become more involved and will not be afraid to express their opinion.
 
@@ -98,7 +104,7 @@ If you want to know more, feel free to check out this link: https://blog.trello.
 
 Functionalities are initially randomly divided into two categories: "low" and "high". Each participant then has the opportunity to perform an action. An action can consist of moving a record from one category to another, starting a discussion about a feature or skipping one's turn. Once everyone has performed an action, the feature ranking is final.
 
-### To conclude
+### To sum up
 
 There are many methods for estimating tasks (you can easily find variants of those described). Don't hesitate to test several of them, to change estimation methods from one sprint to another, and thus determine the one that best suits the project, with which team members are most comfortable. You can also adapt the agile estimation method to the needs of the project, depending on the number of features to be analyzed and the size of the team. Depending on these criteria, some methods will be better adapted than others, and therefore more efficient.
 
@@ -419,15 +425,9 @@ https://levelup.gitconnected.com/write-better-code-with-coding-standards-546faf3
 
 https://medium.com/level-up-web/what-is-a-programming-style-guide-and-why-should-you-care-9019e51bb7ad
 
-- [**Code Reviews**](#code-reviews)
-
-# Software Quality Assurance
-
 ## Code Review
 
-### Introduction
-
-Let's start with a little definition. Code review is a review of a piece of code before it is added to the overall source code of an application. This review aims to detect (among other things) non-compliance with best practices, architectural weaknesses, forgotten "dead code" ... Code review is a fairly common practice in development. This practice can be implemented regardless of the size of the teams. Having an effective code review policy is time consuming and may seem at first glance to be an unnecessary cost. However, it offers many advantages, some directly visible, others more latent:
+Code review is a review of a piece of code before it is added to the overall source code of an application. This review aims to detect (among other things) non-compliance with best practices, architectural weaknesses, forgotten "dead code" ... Code review is a fairly common practice in development. This practice can be implemented regardless of the size of the teams. Having an effective code review policy is time consuming and may seem at first glance to be an unnecessary cost. However, it offers many advantages, some directly visible, others more latent:
 
 - The quality of the code is obviously improved, it becomes more maintainable, better architected...
 - As mentioned above, the number of bugs is reduced;
