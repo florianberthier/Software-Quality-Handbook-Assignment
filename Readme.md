@@ -7,14 +7,22 @@ This document is an handbook of best practices which highlights the good / bad m
 You will find bellow the different topics to be aware of in order to produce efficiently for a project.
 
 - [**Task Estimation**](#task-estimation)
+  - [**Agile/Scrum estimation concept**](#1.-agile/scrum-estimation-concept)
+  - [**The different methods of task estimation**](#2.-The-different-methods-of-task-estimation)
+    - [**Poker planning**](#2.1.-Poker-planning)
+    - [**Dot voting**](#2.2.-Dot-voting)
+    - [**T-Shirt Sizes**](#2.3.-T-Shirt-Sizes)
+    - [**Ordering Procotol**](#2.4.-Ordering-Procotol)
+  - [**Conclusion**](#3.-To-conclude)
+- [**Coding Standards**](#coding-standards)
 
-# Software Quality Assurance
+---
 
-### Task Estimation
+## Task Estimation
 
 First of all, before any planning for the realization of a project, there is necessarily an estimation stage. The evaluation of the realization of a task can be based on different notions such as man-days, hours, points or even t-shirt sizes (XS, S, M, L, XL...).
 
-1. **Agile | Scrum** estimation concept
+### 1. **Agile/Scrum** estimation concept
 
 During a **Agile or Scrum** estimate, all the people who can bring something to the project are invited and involved. This allows everyone to express their point of view and thus obtain a much broader vision of the functionality to be estimated and the solutions that can be implemented. The responsibility for the estimation is shared equally among all team members and is not attributable If the estimation is incorrect, the whole team is responsible. Everyone will therefore become more involved and will not be afraid to express their opinion.
 
@@ -24,12 +32,11 @@ The complexity of the accomplishment of a task will be measured using a qualitat
 
 ![image](./images/scrum_agile_method.jpg)
 
-
-2. The different **methods** of task estimation
+### 2. The different **methods** of task estimation
 
 There are several agile estimation methods, each with its advantages and disadvantages. Nothing prevents the team from changing estimation methods every sprint until they find the one that best suits your agile team.
 
-#### a. Poker planning
+#### 2.1. Poker planning
 
 Certainly the most widespread method of estimation in Scrum.
 
@@ -41,7 +48,7 @@ If you want to know more, feel free to check out this link: https://www.mountain
 
 ![image](./images/poker_schedule.png)
 
-#### b. Dot voting
+#### 2.2 Dot voting
 
 This method is usually used as a decision support tool. Nevertheless, it is well suited for quickly estimating a small number of functionalities.
 
@@ -49,11 +56,11 @@ The list of features to be estimated is displayed and each participant is given 
 
 Once everyone has distributed all their points, the total is added up and a score is given for each feature. The higher the score, the longer or more complicated the feature is going to be.
 
-If you want to know more, feel free to check out this link: https://www.nngroup.com/articles/dot-voting/
+If you want to know more, feel free to check out [this link](https://www.nngroup.com/articles/dot-voting/)
 
 ![image](./images/dot_voting.png)
 
-#### c. T-Shirt Sizes
+#### 2.3. T-Shirt Sizes
 
 This is an informal technique, particularly suitable for quickly processing a large number of functionalities. The categories used are t-shirt sizes: XS, S, M, L XL.
 
@@ -63,22 +70,19 @@ If you want to know more, feel free to check out this link: https://blog.trello.
 
 ![image](./images/tshirt_sizes.jpg)
 
-#### d. Ordering Procotol
+#### 2.4 Ordering Procotol
 
 Functionalities are initially randomly divided into two categories: "low" and "high". Each participant then has the opportunity to perform an action. An action can consist of moving a record from one category to another, starting a discussion about a feature or skipping one's turn. Once everyone has performed an action, the feature ranking is final.
 
-3. To conclude
+### 3. To conclude
 
 There are many methods for estimating tasks (you can easily find variants of those described). Don't hesitate to test several of them, to change estimation methods from one sprint to another, and thus determine the one that best suits the project, with which team members are most comfortable. You can also adapt the agile estimation method to the needs of the project, depending on the number of features to be analyzed and the size of the team. Depending on these criteria, some methods will be better adapted than others, and therefore more efficient.
 
-* Additional resources:
-	- https://www.guru99.com/an-expert-view-on-test-estimation.html
-	- https://www.projectmanager.com/blog/5-tips-for-task-estimating
-	- https://www.atlassian.com/agile/project-management/estimation
+- Additional resources: - https://www.guru99.com/an-expert-view-on-test-estimation.html - https://www.projectmanager.com/blog/5-tips-for-task-estimating - https://www.atlassian.com/agile/project-management/estimation
 
-- [**Coding Standards**](#coding-standards)
+---
 
-## Introduction
+## Coding Standards
 
 The Coding Standard also know as Coding Stlye is a set of rules, guidelines and programming conventions created within the company to build software uniformly. It helps other developers to understand code regardless of his author and it allows smoother code reviews.
 
@@ -400,7 +404,6 @@ https://medium.com/level-up-web/what-is-a-programming-style-guide-and-why-should
 
 # Software Quality Assurance
 
-
 ## Code Review
 
 ### Introduction
@@ -433,26 +436,24 @@ This practice can be divided into two categories. You can do automated checks fo
 
 - Immediately Fix Defects Found. C'est parfois dure de quitter ça tâche actuel pour revenir sur un bug fraîchement découvert. Ce n'est pas parse que vous arrêtez votre tâche actuel pour s'occuper d'un bug que vous allez être en retard sur votre travail. Au contraire, le but est de ne pas laisser les bug s'accumuler au file du temps.
 
-### Bad Practices 
+### Bad Practices
 
 - Too many comments. When a person makes a mistake, chances are they have made the same mistake in several places. Do not drown the person who is going to correct the code under your comments. By doing so, you may just discourage the person. Grouping comments together allows you to convey the same message without overwhelming the review requester. It will also make the correction clearer.
-  
+
 - No opinion here. You must remain completely neutral on your examination. It is especially important not to pass off your opinion as fact when you have higher rank and authority within your team or company. If you do this, developers will feel they have no choice but to quietly implement your demands.
 
 - Staying professional. Although the task may seem boring to you, that's no reason to be distracted. So there is no need for jokes or inappropriate vocabulary. A person reading may not understand the overall meaning of your comment. We don't doubt your humour, no worries. ;)
 
 - Try to not hurts. Finally, don't forget that in case you examine code that is not yours, you can yell at the creator of that code. You are looking at a human being, not a machine. So try to be constructive in your comments, rather than critical. You can do this by asking questions rather than making statements. And don't forget to praise in addition to your constructive comments. It's good for team cohesion.
-  
 
+Additional resources:
 
-  Additional resources:
+    https://medium.com/cuelogic-technologies/code-review-process-best-practices-3eeecab26ded
 
-	https://medium.com/cuelogic-technologies/code-review-process-best-practices-3eeecab26ded
+    https://www.perforce.com/blog/qac/9-best-practices-for-code-review
 
-	https://www.perforce.com/blog/qac/9-best-practices-for-code-review
+    https://medium.com/palantir/code-review-best-practices-19e02780015f
 
-	https://medium.com/palantir/code-review-best-practices-19e02780015f
+    https://medium.com/@sandya.sankarram/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c
 
-	https://medium.com/@sandya.sankarram/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c
-	
-	https://techbeacon.com/app-dev-testing/how-sabotage-code-review
+    https://techbeacon.com/app-dev-testing/how-sabotage-code-review
