@@ -7,12 +7,12 @@ This document is an handbook of best practices which highlights the good / bad m
 You will find bellow the different topics to be aware of in order to produce efficiently for a project.
 
 - [**Task Estimation**](#task-estimation)
-  - [**Agile/Scrum estimation concept**](#1.agile/scrum-estimation-concept)
-  - [**The different methods of task estimation**](#2.The-different-methods-of-task-estimation)
-    - [**Poker planning**](#poker-planning)
-    - [**Dot voting**](#2.2.-dot-voting)
-    - [**T-Shirt Sizes**](#2.3.-T-Shirt-Sizes)
-    - [**Ordering Procotol**](#2.4.-Ordering-Procotol)
+  - [**Agile/Scrum estimation concept**](#A.agile/scrum-estimation-concept)
+  - [**The different methods of task estimation**](#B.-The-different-methods-of-task-estimation)
+    - [**Poker planning**](#B.1-poker-planning)
+    - [**Dot voting**](#2-2.-dot-voting)
+    - [**T-Shirt Sizes**](#2-3-T-Shirt-Sizes)
+    - [**Ordering Procotol**](#ii.iv.-Ordering-Procotol)
   - [**Conclusion**](#3.-To-conclude)
 - [**Coding Standards**](#coding-standards)
   - [**Files Organization**](#1.-Files-Organization)
@@ -46,7 +46,7 @@ You will find bellow the different topics to be aware of in order to produce eff
 
 First of all, before any planning for the realization of a project, there is necessarily an estimation stage. The evaluation of the realization of a task can be based on different notions such as man-days, hours, points or even t-shirt sizes (XS, S, M, L, XL...).
 
-### 1.**Agile/Scrum** estimation concept
+### A.**Agile/Scrum** estimation concept
 
 During a **Agile or Scrum** estimate, all the people who can bring something to the project are invited and involved. This allows everyone to express their point of view and thus obtain a much broader vision of the functionality to be estimated and the solutions that can be implemented. The responsibility for the estimation is shared equally among all team members and is not attributable If the estimation is incorrect, the whole team is responsible. Everyone will therefore become more involved and will not be afraid to express their opinion.
 
@@ -56,11 +56,11 @@ The complexity of the accomplishment of a task will be measured using a qualitat
 
 ![image](./images/scrum_agile_method.jpg)
 
-### 2.The different **methods** of task estimation
+### B. The different **methods** of task estimation
 
 There are several agile estimation methods, each with its advantages and disadvantages. Nothing prevents the team from changing estimation methods every sprint until they find the one that best suits your agile team.
 
-#### 2.1 Poker planning
+#### B.1 Poker planning
 
 Certainly the most widespread method of estimation in Scrum.
 
@@ -94,7 +94,7 @@ If you want to know more, feel free to check out this link: https://blog.trello.
 
 ![image](./images/tshirt_sizes.jpg)
 
-#### 2.4 Ordering Procotol
+#### ii.iv Ordering Procotol
 
 Functionalities are initially randomly divided into two categories: "low" and "high". Each participant then has the opportunity to perform an action. An action can consist of moving a record from one category to another, starting a discussion about a feature or skipping one's turn. Once everyone has performed an action, the feature ranking is final.
 
