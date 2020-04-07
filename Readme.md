@@ -7,38 +7,38 @@ This document is an handbook of best practices which highlights the good / bad m
 You will find bellow the different topics to be aware of in order to produce efficiently for a project.
 
 - [**Task Estimation**](#task-estimation)
-  - [**Agile/Scrum estimation concept**](#A.agile/scrum-estimation-concept)
-  - [**The different methods of task estimation**](#B.-The-different-methods-of-task-estimation)
-    - [**Poker planning**](#B.1-poker-planning)
-    - [**Dot voting**](#2-2.-dot-voting)
-    - [**T-Shirt Sizes**](#2-3-T-Shirt-Sizes)
-    - [**Ordering Procotol**](#ii.iv.-Ordering-Procotol)
-  - [**Conclusion**](#3.-To-conclude)
+  - [**Agile/Scrum estimation concept**](#agile/scrum-estimation-concept)
+  - [**The different methods of task estimation**](#The-different-methods-of-task-estimation)
+    - [**Poker planning**](#poker-planning)
+    - [**Dot voting**](#dot-voting)
+    - [**T-Shirt Sizes**](#Shirt-Sizes)
+    - [**Ordering Procotol**](#Ordering-Procotol)
+  - [**Conclusion**](#To-conclude)
 - [**Coding Standards**](#coding-standards)
-  - [**Files Organization**](#1.-Files-Organization)
-    - [**Delivery folder content**](#1.1.-Delivery-folder-content)
-    - [**File extension**](#1.2.-File-extension)
-    - [**File coherence**](#1.3.-File-coherence)
-    - [**Naming and folders**](#1.4.-Naming-and-folders)
-  - [**Global Organization**](#2.-Global-Organization)
-    - [**File Header**](#2.1.-File-Header)
-    - [**Functions separator**](#2.2.-Functions-separator)
-    - [**Global Variables**](#2.3.-Global-Variables)
-  - [**Functions**](#3.-Functions)
-    - [**Functions coherence**](#3.1.-Functions-coherence)
-    - [**Naming convention**](#3.2.-Naming-convention)
-    - [**Number of lines**](#3.3.-Number-of-lines)
-    - [**Functions arguments**](#3.4.-Functions-arguments)
-    - [**Comments**](#3.5.-Comments)
-    - [**Nested functions**](#3.6.-Nested-functions)
-  - [**Layout inside a function**](#4.-Layout-inside-a-function)
-    - [**Line content**](#4.1.-Line-content)
-    - [**Indentation**](#4.2.-Indentation)
-    - [**Spaces**](#4.3.-Spaces)
-    - [**Brackets**](#4.4.-Brackets)
-  - [**Variables**](#5.-Variables)
-    - [**Declaration**](#5.1.-Declaration)
-    - [**Naming**](#5.2.-Naming)
+  - [**Files Organization**](#Files-Organization)
+    - [**Delivery folder content**](#Delivery-folder-content)
+    - [**File extension**](#File-extension)
+    - [**File coherence**](#File-coherence)
+    - [**Naming and folders**](#Naming-and-folders)
+  - [**Global Organization**](#Global-Organization)
+    - [**File Header**](#File-Header)
+    - [**Functions separator**](#Functions-separator)
+    - [**Global Variables**](#Global-Variables)
+  - [**Functions**](#Functions)
+    - [**Functions coherence**](#Functions-coherence)
+    - [**Naming convention**](#Naming-convention)
+    - [**Number of lines**](#Number-of-lines)
+    - [**Functions arguments**](#Functions-arguments)
+    - [**Comments**](#Comments)
+    - [**Nested functions**](#Nested-functions)
+  - [**Layout inside a function**](#Layout-inside-a-function)
+    - [**Line content**](#Line-content)
+    - [**Indentation**](#Indentation)
+    - [**Spaces**](#Spaces)
+    - [**Brackets**](#Brackets)
+  - [**Variables**](#Variables)
+    - [**Declaration**](#Declaration)
+    - [**Naming**](#Naming)
 
 ---
 
@@ -46,7 +46,7 @@ You will find bellow the different topics to be aware of in order to produce eff
 
 First of all, before any planning for the realization of a project, there is necessarily an estimation stage. The evaluation of the realization of a task can be based on different notions such as man-days, hours, points or even t-shirt sizes (XS, S, M, L, XL...).
 
-### A.**Agile/Scrum** estimation concept
+### **Agile/Scrum** estimation concept
 
 During a **Agile or Scrum** estimate, all the people who can bring something to the project are invited and involved. This allows everyone to express their point of view and thus obtain a much broader vision of the functionality to be estimated and the solutions that can be implemented. The responsibility for the estimation is shared equally among all team members and is not attributable If the estimation is incorrect, the whole team is responsible. Everyone will therefore become more involved and will not be afraid to express their opinion.
 
@@ -56,11 +56,11 @@ The complexity of the accomplishment of a task will be measured using a qualitat
 
 ![image](./images/scrum_agile_method.jpg)
 
-### B. The different **methods** of task estimation
+### The different **methods** of task estimation
 
 There are several agile estimation methods, each with its advantages and disadvantages. Nothing prevents the team from changing estimation methods every sprint until they find the one that best suits your agile team.
 
-#### B.1 Poker planning
+#### Poker planning
 
 Certainly the most widespread method of estimation in Scrum.
 
@@ -72,7 +72,7 @@ If you want to know more, feel free to check out this link: https://www.mountain
 
 ![image](./images/poker_schedule.png)
 
-#### 2.2 Dot voting
+#### Dot voting
 
 This method is usually used as a decision support tool. Nevertheless, it is well suited for quickly estimating a small number of functionalities.
 
@@ -84,7 +84,7 @@ If you want to know more, feel free to check out [this link](https://www.nngroup
 
 ![image](./images/dot_voting.png)
 
-#### 2.3. T-Shirt Sizes
+#### T-Shirt Sizes
 
 This is an informal technique, particularly suitable for quickly processing a large number of functionalities. The categories used are t-shirt sizes: XS, S, M, L XL.
 
@@ -94,11 +94,11 @@ If you want to know more, feel free to check out this link: https://blog.trello.
 
 ![image](./images/tshirt_sizes.jpg)
 
-#### ii.iv Ordering Procotol
+#### Ordering Procotol
 
 Functionalities are initially randomly divided into two categories: "low" and "high". Each participant then has the opportunity to perform an action. An action can consist of moving a record from one category to another, starting a discussion about a feature or skipping one's turn. Once everyone has performed an action, the feature ranking is final.
 
-### 3. To conclude
+### To conclude
 
 There are many methods for estimating tasks (you can easily find variants of those described). Don't hesitate to test several of them, to change estimation methods from one sprint to another, and thus determine the one that best suits the project, with which team members are most comfortable. You can also adapt the agile estimation method to the needs of the project, depending on the number of features to be analyzed and the size of the team. Depending on these criteria, some methods will be better adapted than others, and therefore more efficient.
 
@@ -122,9 +122,9 @@ In other words, standardization of code facilitate :
 The following coding style applies to every program inside the company. No matter which product or service you are working on, you should follow the guideline.
 The following parties explain how you should write and organize your code.
 
-### 1. Files Organization
+### Files Organization
 
-#### 1.1. Delivery folder content
+#### Delivery folder content
 
 Your delivery folder should only contains file required for compilation. Any post-compilation generated file and temporary file should not be inclued in your delivery folder.
 
@@ -166,17 +166,17 @@ Your delivery folder should only contains file required for compilation. Any pos
         format.h
         compute.h
 
-#### 1.2. File extension
+#### File extension
 
 Sources in your program, should only have files with the correct extension of the project.
 
-#### 1.3. File coherence
+#### File coherence
 
 A source file should match a logic, and group all the functions associated.
 
     /!\ You should consider subdivide your code in multiple files if you have more than 5 functions.
 
-#### 1.4. Naming and folders
+#### Naming and folders
 
 The name of the file should represent the logical entity it defines, and thus be clear, precise and explicit.
 
@@ -206,9 +206,9 @@ Every folders and filenames should be in English and formatted according to the 
     GetComments.c
     GetAuthors.c
 
-### 2. Global Organization
+### Global Organization
 
-#### 2.1. File Header
+#### File Header
 
 The source files must always start with the formatted header of the company. A Visual Studio Code extension is available to automatically generate the header.
 
@@ -219,7 +219,7 @@ The source files must always start with the formatted header of the company. A V
     @updated - 2020-04-05 18:35:02
     **************************************
 
-#### 2.2. Functions separator
+#### Functions separator
 
 Each function inside a file should be separated by one empty line.
 
@@ -242,7 +242,7 @@ Each function inside a file should be separated by one empty line.
         ...
     }
 
-#### 2.3. Global Variables
+#### Global Variables
 
 You should only use global variables when it comes to constant variable. Any non-constant variable should not be global.
 
@@ -257,9 +257,9 @@ Global variable should follow SNAKE_CASE (ALL CAPS) standard.
     const int AGE=20
     const int threshold=20
 
-### 3. Functions
+### Functions
 
-#### 3.1. Functions coherence
+#### Functions coherence
 
 A function should only do one thing and should not mix functionality.
 
@@ -285,7 +285,7 @@ A function should only do one thing and should not mix functionality.
         }
     }
 
-#### 3.2. Naming convention
+#### Naming convention
 
 A function should describe what it does. It must contains a verb and be explicit.
 
@@ -311,11 +311,11 @@ All function names should be in English, according to the snake_case convention 
         ...
     }
 
-#### 3.3. Number of lines
+#### Number of lines
 
 A function should be as small as possible. The longer the function is the most difficult testing will be difficult.
 
-#### 3.4. Functions arguments
+#### Functions arguments
 
 A function taking no parameters should take `void` as unique argument.
 A function should not need more than 4 arguments
@@ -336,18 +336,18 @@ A function should not need more than 4 arguments
         ...
     }
 
-#### 3.5. Comments
+#### Comments
 
 There should be no comment within a function.
 The function should be readable and self-explanatory but comment are allowed above the function to explain it.
 
-#### 3.6. Nested functions
+#### Nested functions
 
 Nested functions are not allowed because it increase com- plexity.
 
-### 4. Layout inside a function
+### Layout inside a function
 
-#### 4.1 Line content
+#### Line content
 
 A line should correspond to only one statement.
 
@@ -369,11 +369,11 @@ or
 a++; b++;
 ```
 
-#### 4.2 Indentation
+#### Indentation
 
 All files in the project must have the same indentation
 
-#### 4.3 Spaces
+#### Spaces
 
 Always place a space after a comma or a keyword
 
@@ -384,7 +384,7 @@ return(1); => KO
 return (1); => OK
 ```
 
-#### 4.4 Brackets
+#### Brackets
 
 Opening curly brackets should be at the end of their line.
 Closing curly brackets should always be alone on their line, except in the case of an else statement.
@@ -399,13 +399,13 @@ if (cond) {
 }
 ```
 
-### 5. Variables
+### Variables
 
-#### 5.1 Declaration
+#### Declaration
 
 Variables should be declared at the beginning of the scope of the function
 
-#### 5.2 Naming
+#### Naming
 
 All identifier names should be in English and represent the variable
 
