@@ -9,7 +9,7 @@ You will find bellow the different topics to be aware of in order to produce eff
 - [**Task Estimation**](#task-estimation)
   - [**Agile/Scrum estimation concept**](#1.-agile/scrum-estimation-concept)
   - [**The different methods of task estimation**](#2.-The-different-methods-of-task-estimation)
-    - [**Poker planning**](#2.1.-poker-planning)
+    - [**Poker planning**](#poker-planning)
     - [**Dot voting**](#2.2.-dot-voting)
     - [**T-Shirt Sizes**](#2.3.-T-Shirt-Sizes)
     - [**Ordering Procotol**](#2.4.-Ordering-Procotol)
@@ -60,7 +60,7 @@ The complexity of the accomplishment of a task will be measured using a qualitat
 
 There are several agile estimation methods, each with its advantages and disadvantages. Nothing prevents the team from changing estimation methods every sprint until they find the one that best suits your agile team.
 
-#### 2.1. Poker planning
+#### Poker planning
 
 Certainly the most widespread method of estimation in Scrum.
 
