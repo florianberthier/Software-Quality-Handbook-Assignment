@@ -1,0 +1,7 @@
+Elements that we could do differently next time in order to produce better results :
+
+- Use a planning management tool like Trello to better organize the distribution of tasks and the gestion of our branches.
+- Naming our branches without putting our names in it but only the name of the feature/task corresponding to the branch.
+- Better organize the team to avoid loosing time on merging by waiting the other members of the team.
+
+Instead of that, we had a great communication in the team and our git standards have permit us to produce a qualitative result in the required deadline
