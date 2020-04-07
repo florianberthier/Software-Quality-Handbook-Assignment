@@ -488,3 +488,19 @@ This practice can be divided into two categories. You can do automated checks fo
 - [How to not sabotage code review](https://techbeacon.com/app-dev-testing/how-sabotage-code-review)
 
 ---
+
+## Software Quality Assurance Assignment - INFS30028
+
+### Company Handbook Assignment
+
+**Lilian Desvaux de Marigny** -
+D19124161
+
+**Kyllian Hamadou** -
+D19124157
+
+**Florian Berthier** -
+D19124164
+
+**Riwan Lasmi** -
+D19124167
