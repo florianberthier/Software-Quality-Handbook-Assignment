@@ -15,6 +15,30 @@ You will find bellow the different topics to be aware of in order to produce eff
     - [**Ordering Procotol**](#2.4.-Ordering-Procotol)
   - [**Conclusion**](#3.-To-conclude)
 - [**Coding Standards**](#coding-standards)
+  - [**Files Organization**](#1.-Files-Organization)
+    - [**Delivery folder content**](#1.1.-Delivery-folder-content)
+    - [**File extension**](#1.2.-File-extension)
+    - [**File coherence**](#1.3.-File-coherence)
+    - [**Naming and folders**](#1.4.-Naming-and-folders)
+  - [**Global Organization**](#2.-Global-Organization)
+    - [**File Header**](#2.1.-File-Header)
+    - [**Functions separator**](#2.2.-Functions-separator)
+    - [**Global Variables**](#2.3.-Global-Variables)
+  - [**Functions**](#3.-Functions)
+    - [**Functions coherence**](#3.1.-Functions-coherence)
+    - [**Naming convention**](#3.2.-Naming-convention)
+    - [**Number of lines**](#3.3.-Number-of-lines)
+    - [**Functions arguments**](#3.4.-Functions-arguments)
+    - [**Comments**](#3.5.-Comments)
+    - [**Nested functions**](#3.6.-Nested-functions)
+  - [**Layout inside a function**](#4.-Layout-inside-a-function)
+    - [**Line content**](#4.1.-Line-content)
+    - [**Indentation**](#4.2.-Indentation)
+    - [**Spaces**](#4.3.-Spaces)
+    - [**Brackets**](#4.4.-Brackets)
+  - [**Variables**](#5.-Variables)
+    - [**Declaration**](#5.1.-Declaration)
+    - [**Naming**](#5.2.-Naming)
 
 ---
 
@@ -95,15 +119,10 @@ In other words, standardization of code facilitate :
 - Reusability
 - Testing
 
-## Scope of execution
-
-The following coding style applies to every program inside the company written in C. No matter which product or service you are working on, you should follow the guideline.
-
-# Company Coding Style
-
+The following coding style applies to every program inside the company. No matter which product or service you are working on, you should follow the guideline.
 The following parties explain how you should write and organize your code.
 
-## 1. Files Organization
+### 1. Files Organization
 
 #### 1.1. Delivery folder content
 
@@ -149,7 +168,7 @@ Your delivery folder should only contains file required for compilation. Any pos
 
 #### 1.2. File extension
 
-Sources in your program, should only have file with `.c` and `.h` extension.
+Sources in your program, should only have files with the correct extension of the project.
 
 #### 1.3. File coherence
 
@@ -187,11 +206,11 @@ Every folders and filenames should be in English and formatted according to the 
     GetComments.c
     GetAuthors.c
 
-## 2. Global Organization
+### 2. Global Organization
 
 #### 2.1. File Header
 
-The source files (`.c`, `.h`) must always start with the formatted header of the company. A Visual Studio Code extension is available to automatically generate the header.
+The source files must always start with the formatted header of the company. A Visual Studio Code extension is available to automatically generate the header.
 
     **************************************
     @company - company.io
@@ -238,7 +257,7 @@ Global variable should follow SNAKE_CASE (ALL CAPS) standard.
     const int AGE=20
     const int threshold=20
 
-## 3. Functions
+### 3. Functions
 
 #### 3.1. Functions coherence
 
@@ -326,7 +345,7 @@ The function should be readable and self-explanatory but comment are allowed abo
 
 Nested functions are not allowed because it increase com- plexity.
 
-## 4. Layout inside a function
+### 4. Layout inside a function
 
 #### 4.1 Line content
 
@@ -380,7 +399,7 @@ if (cond) {
 }
 ```
 
-## 5 Variables
+### 5. Variables
 
 #### 5.1 Declaration
 
