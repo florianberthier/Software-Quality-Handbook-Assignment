@@ -184,7 +184,7 @@ Sources in your program, should only have files with the correct extension of th
 
 A source file should match a logic, and group all the functions associated.
 
-    /!\ You should consider subdivide your code in multiple files if you have more than 5 functions.
+`Careful : You should consider subdivide your code in multiple files if you have more than 5 functions.`
 
 #### Naming and folders
 
@@ -413,21 +413,21 @@ if (cond) {
 
 #### Declaration
 
-Variables should be declared at the beginning of the scope of the function
+Variables should be declared at the beginning of the scope of the function.
 
 #### Naming
 
-All identifier names should be in English and represent the variable
+All identifier names should be in English and represent the variable.
 
-# Blog **Posts**
+**Additional resources :**
 
-https://medium.com/@marilu597/general-coding-guidelines-clean-code-from-day-1-9ab0804e5d91
+- [General Coding Guidelines: Clean Code From Day 1](https://medium.com/@marilu597/general-coding-guidelines-clean-code-from-day-1-9ab0804e5d91)
+- [Coding Standards and Guidelines](https://www.geeksforgeeks.org/coding-standards-and-guidelines/)
+- [Write Better Code with Coding Standards](https://levelup.gitconnected.com/write-better-code-with-coding-standards-546faf3fd4d1)
+- [What is a Programming Style Guide and why should you care](https://medium.com/level-up-web/what-is-a-programming-style-guide-and-why-should-you-care-9019e51bb7ad)
+- [Coding conventions defined](https://en.wikipedia.org/wiki/Coding_conventions)
 
-https://www.geeksforgeeks.org/coding-standards-and-guidelines/
-
-https://levelup.gitconnected.com/write-better-code-with-coding-standards-546faf3fd4d1
-
-https://medium.com/level-up-web/what-is-a-programming-style-guide-and-why-should-you-care-9019e51bb7ad
+---
 
 ## Code Review
 
