@@ -74,7 +74,7 @@ Participants use a specially designed card game for poker planning. The cards ha
 
 Each feature is presented, after which each participant in the poker schedule can vote. The cards are laid face down so that no one knows who votes what. If a consensus is not reached, everyone can discuss the feature again. Votes and discussions follow each other until a majority decides on the estimate. The process is repeated for each feature presented, usually two to ten per poker schedule.
 
-If you want to know more, feel free to check out this link: https://www.mountaingoatsoftware.com/agile/planning-poker
+If you want to know more, feel free to check out [this link](https://www.mountaingoatsoftware.com/agile/planning-poker)
 
 ![image](./images/poker_schedule.png)
 
@@ -96,7 +96,7 @@ This is an informal technique, particularly suitable for quickly processing a la
 
 Each feature is discussed among the participants, in order to estimate in which category it fits. Naturally, the XS category will contain features that are easy to implement, XL will contain the most complex and difficult ones. A vote can be organized if the participants cannot agree during the discussion.
 
-If you want to know more, feel free to check out this link: https://blog.trello.com/t-shirt-sizes-project-estimation-technique
+If you want to know more, feel free to check out [this link](https://blog.trello.com/t-shirt-sizes-project-estimation-technique)
 
 ![image](./images/tshirt_sizes.jpg)
 
@@ -108,7 +108,11 @@ Functionalities are initially randomly divided into two categories: "low" and "h
 
 There are many methods for estimating tasks (you can easily find variants of those described). Don't hesitate to test several of them, to change estimation methods from one sprint to another, and thus determine the one that best suits the project, with which team members are most comfortable. You can also adapt the agile estimation method to the needs of the project, depending on the number of features to be analyzed and the size of the team. Depending on these criteria, some methods will be better adapted than others, and therefore more efficient.
 
-- Additional resources: - https://www.guru99.com/an-expert-view-on-test-estimation.html - https://www.projectmanager.com/blog/5-tips-for-task-estimating - https://www.atlassian.com/agile/project-management/estimation
+**Additional resources :**
+
+- [Software Test Estimation Techniques: Step By Step Guide](https://www.guru99.com/an-expert-view-on-test-estimation.html)
+- [5 Tips for Task Estimating](https://www.projectmanager.com/blog/5-tips-for-task-estimating)
+- [Story points and estimation](https://www.atlassian.com/agile/project-management/estimation)
 
 ---
 
